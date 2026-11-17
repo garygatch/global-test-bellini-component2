@@ -1,0 +1,78 @@
+{
+  "bindings": [],
+  "children": [
+    {
+      "children": [
+        {
+          "evaluate": true,
+          "name": "text",
+          "textContent": "$ctrl.header"
+        }
+      ],
+      "classList": [],
+      "name": "h1"
+    },
+    {
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "children": [],
+      "classList": [],
+      "expressions": [
+        {
+          "expression": "\"primary\"",
+          "to": "type"
+        },
+        {
+          "expression": "$ctrl.test()",
+          "to": "label"
+        }
+      ],
+      "name": "Button",
+      "nodeName": "bln-button",
+      "type": "core-component"
+    },
+    {
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "children": [],
+      "classList": [],
+      "expressions": [],
+      "name": "Calendar",
+      "nodeName": "bln-calendar",
+      "type": "core-component"
+    }
+  ],
+  "modules": [],
+  "name": "comp1",
+  "styles": [],
+  "type": "custom-component",
+  "variables": [
+    {
+      "description": "",
+      "name": "header",
+      "type": "property",
+      "value": "'global sub-comp'"
+    },
+    {
+      "body": "return 'comp1 sub'",
+      "description": "",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "name": "test",
+      "parameters": [],
+      "returnType": {
+        "name": "any"
+      },
+      "type": "method",
+      "watch": []
+    }
+  ]
+}

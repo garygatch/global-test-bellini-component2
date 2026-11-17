@@ -1,0 +1,68 @@
+{
+  "bindings": [],
+  "children": [
+    {
+      "children": [
+        {
+          "evaluate": true,
+          "name": "text",
+          "textContent": "$ctrl.header"
+        }
+      ],
+      "classList": [],
+      "name": "h1"
+    },
+    {
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "children": [],
+      "classList": [],
+      "events": {
+        "click": "$ctrl.func1()"
+      },
+      "expressions": [],
+      "name": "Badge",
+      "nodeName": "bln-badge",
+      "type": "core-component"
+    },
+    {
+      "children": [],
+      "classList": [],
+      "expressions": [],
+      "name": "comp1",
+      "ownerId": "6afc06161f031b2ee9c9068a",
+      "ownerType": "component",
+      "resourceIdentity": "components/comp1",
+      "type": "custom-component"
+    }
+  ],
+  "modules": [],
+  "name": "global-test",
+  "styles": [],
+  "type": "component",
+  "variables": [
+    {
+      "description": "",
+      "name": "header",
+      "type": "property",
+      "value": "'global comp parent'"
+    },
+    {
+      "body": "return 'foo'",
+      "description": "",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "name": "func1",
+      "parameters": [],
+      "returnType": {
+        "name": "any"
+      },
+      "type": "method",
+      "watch": []
+    }
+  ]
+}
